@@ -1,4 +1,4 @@
-exports.verifyMailText = `Thanks for creating an account on Kutt.it.
+exports.verifyMailText = `Thanks for creating an account on xn--d18h.ml.
 
 Please verify your email address using the link below.
 

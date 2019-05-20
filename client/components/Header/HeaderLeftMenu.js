@@ -31,12 +31,12 @@ const HeaderLeftMenu = props => {
     <List>
       <HeaderMenuItem>
         <a
-          href="//github.com/thedevs-network/kutt"
+          href="//github.com/emoji-short/xn--i77h6a.ml"
           target="_blank"
           rel="noopener noreferrer"
-          title="GitHub"
+          title="🇪🇺Nav"
         >
-          GitHub
+          🇪🇺Nav
         </a>
       </HeaderMenuItem>
       <HeaderMenuItem>

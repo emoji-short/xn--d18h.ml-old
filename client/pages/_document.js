@@ -27,7 +27,7 @@ class AppDocument extends Document {
           <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
           <meta
             name="description"
-            content="Kutt.it is a free and open source URL shortener with custom domains and stats."
+            content="xn--d18h.ml is a free and open source URL shortener with custom domains and stats."
           />
           <link
             href="https://fonts.googleapis.com/css?family=Nunito:300,400,700"
@@ -42,15 +42,15 @@ class AppDocument extends Document {
           <meta name="theme-color" content="#f3f3f3" />
 
           <meta property="fb:app_id" content="123456789" />
-          <meta property="og:url" content="https://kutt.it" />
+          <meta property="og:url" content="https://xn--d18h.ml" />
           <meta property="og:type" content="website" />
-          <meta property="og:title" content="Kutt.it" />
-          <meta property="og:image" content="https://kutt.it/images/card.png" />
+          <meta property="og:title" content="xn--d18h.ml" />
+          <meta property="og:image" content="https://xn--d18h.ml/images/card.png" />
           <meta property="og:description" content="Free & Open Source Modern URL Shortener" />
-          <meta name="twitter:url" content="https://kutt.it" />
-          <meta name="twitter:title" content="Kutt.it" />
+          <meta name="twitter:url" content="https://xn--d18h.ml" />
+          <meta name="twitter:title" content="xn--d18h.ml" />
           <meta name="twitter:description" content="Free & Open Source Modern URL Shortener" />
-          <meta name="twitter:image" content="https://kutt.it/images/card.png" />
+          <meta name="twitter:image" content="https://xn--d18h.ml/images/card.png" />
 
           {this.props.styleTags}
 

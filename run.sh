@@ -24,10 +24,10 @@ EOF
 
 cat <<EOF > server/config.js
 module.exports = {
-  PORT: process.env.KUTT_PORT,
+  PORT: process.env.EMOJI_PORT,
 
   /* The domain that this website is on */
-  DEFAULT_DOMAIN: process.env.KUTT_DOMAIN,
+  DEFAULT_DOMAIN: process.env.EMOJI_DOMAIN,
 
   /* Neo4j database credential details */
   DB_URI: 'bolt://' + process.env.NEO4J_HOST,
@@ -77,7 +77,7 @@ module.exports = {
   MAIL_PORT: process.env.MAIL_PORT,
   MAIL_SECURE: process.env.MAIL_SECURE == 'true',
   MAIL_USER: process.env.MAIL_USER,
-  MAIL_FROM: process.env.MAIL_FROM, // Example: "Kutt <support@kutt.it>". Leave empty to use MAIL_USER
+  MAIL_FROM: process.env.MAIL_FROM, // Example: "xn--d18h <support@xn--d18h.ml>". Leave empty to use MAIL_USER
   MAIL_PASSWORD: process.env.MAIL_PASS,
 
   /*

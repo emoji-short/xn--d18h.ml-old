@@ -6,8 +6,8 @@ RUN apk add --no-cache bash
 RUN npm install
 RUN npm run build
 
-ENV KUTT_PORT 3000
-ENV KUTT_DOMAIN 'kutt.it'
+ENV EMOJI_PORT 3000
+ENV EMOJI_DOMAIN 'xn--d18h.ml'
 
 ENV NEO4J_HOST '127.0.0.1'
 ENV NEO4J_USER ''

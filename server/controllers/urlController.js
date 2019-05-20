@@ -37,7 +37,7 @@ const config = require('../config');
 const dnsLookup = promisify(dns.lookup);
 
 const generateId = async () => {
-  const id = generate('abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890', 6);
+  const id = generate("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890$-_.+!*'()", 7);
   const urls = await findUrl({ id });
   if (!urls.length) return id;
   return generateId();

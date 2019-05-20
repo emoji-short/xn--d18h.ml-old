@@ -1,8 +1,8 @@
 module.exports = {
-  PORT: process.env.KUTT_PORT,
+  PORT: process.env.EMOJI_PORT,
 
   /* The domain that this website is on */
-  DEFAULT_DOMAIN: process.env.KUTT_DOMAIN,
+  DEFAULT_DOMAIN: process.env.EMOJI_DOMAIN,
 
   /* Neo4j database credential details */
   DB_URI: 'bolt://localhost',

@@ -1,7 +1,7 @@
-# Running Kutt in Docker
+# Running application in Docker
 
 Assumptions:
-The domain in this example is `kutt.local`. This needs to be configured in your hosts file for this example to work _as written_. You should, of course, modify this domain to suit your needs. 
+The domain in this example is `xn--d18h.local`. This needs to be configured in your hosts file for this example to work _as written_. You should, of course, modify this domain to suit your needs. 
 
 ### Configure Kutt
 
@@ -9,17 +9,17 @@ server/config.js
 ```
 module.exports = {
 
-	PORT: process.env.KUTT_PORT, # Or whatever you want to name the env var
+	PORT: process.env.EMOJI_PORT, # Or whatever you want to name the env var
     
     /* The domain that this website is on */
-    DEFAULT_DOMAIN: process.env.KUTT_DOMAIN, # Or whatever..
+    DEFAULT_DOMAIN: process.env.EMOJI_DOMAIN, # Or whatever..
     
     ...
     
 }
 ```
 
-No docker-relevant modifications are necessary for client/config.js. However, you will still need to configure this as part of the standard kutt setup. 
+No docker-relevant modifications are necessary for client/config.js. However, you will still need to configure this as part of the standard application setup. 
 
 ### Neo4j in a container
 
@@ -35,7 +35,7 @@ docker run \
 ```
 **This is not a production-ready setup. There is no data persistence, nor proper security. Use for test/dev only.**
 
-Then, configure Kutt:
+Then, configure xn--d18h:
 server/config.js
 ```
 ...
@@ -46,18 +46,18 @@ DB_PASSWORD: 'neo4j', # Or via env var..
 ...
 ```
 
-Once you have neo4j running in a container, you'll link your Kutt container to it. This will be documented below.
+Once you have neo4j running in a container, you'll link your xn--d18h container to it. This will be documented below.
 
-### Build Kutt Image
+### Build xn--d18h Image
 
-First you'll need to build Kutt.
-From the root directory of Kutt, execute the following:
-`docker build -t kutt .`
+First you'll need to build xn--d18h.
+From the root directory of xn--d18h, execute the following:
+`docker build -t xn--d18h .`
 
-### Run Kutt
+### Run xn--d18h
 
-Once you've built the image, then all that is left to do is run Kutt.
+Once you've built the image, then all that is left to do is run xn--d18h.
 
-`docker run -d -p80:3000 -e KUTT_PORT=3000 -e KUTT_DOMAIN=kutt.local --link=neo4j kutt`
+`docker run -d -p80:3000 -e EMOJI_PORT=3000 -e EMOJI_DOMAIN=xn--d18h.local --link=neo4j xn--d18h`
 
-Direct your browser to http://kutt.local/ and begin kutting URLs!
+Direct your browser to http://xn--d18h.local/ and begin compress URLs!

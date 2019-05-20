@@ -2,7 +2,7 @@ module.exports = {
   PORT: 3000,
 
   /* The domain that this website is on */
-  DEFAULT_DOMAIN: 'kutt.it',
+  DEFAULT_DOMAIN: 'xn--d18h.ml',
 
   /* Neo4j database credential details */
   DB_URI: 'bolt://localhost',
@@ -15,7 +15,7 @@ module.exports = {
   REDIS_PASSWORD: '',
 
   /* The daily limit for each user */
-  USER_LIMIT_PER_DAY: 50,
+  USER_LIMIT_PER_DAY: 100,
 
   /* A passphrase to encrypt JWT. Use a long and secure key. */
   JWT_SECRET: 'securekey',
@@ -52,7 +52,7 @@ module.exports = {
   MAIL_PORT: 587,
   MAIL_SECURE: false,
   MAIL_USER: '',
-  MAIL_FROM: '', // Example: "Kutt <support@kutt.it>". Leave empty to use MAIL_USER
+  MAIL_FROM: '', // Example: "Kutt <support@xn--d18h.ml>". Leave empty to use MAIL_USER
   MAIL_PASSWORD: '',
 
   /*
