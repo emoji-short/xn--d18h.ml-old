@@ -113,7 +113,8 @@ Body (or query for GET request)
 | C# (.NET) | [KuttSharp](https://github.com/0xaryan/KuttSharp)          | .NET package for xn--d18h.ml url shortener            |
 | Python    | [kutt-cli](https://github.com/univa64/kutt-cli)            | Command-line client for Kutt written in Python    |
 | Ruby      | [kutt.rb](https://github.com/univa64/kutt.rb)              | Kutt library written in Ruby                      |
-| Node.js   | [node-kutt](https://github.com/ardalanamini/node-kutt)     | Node.js client for xn--d18h.ml url shortener          |
+| Rust      | [kutt-rs](https://github.com/robatipoor/kutt-rs)           | Command line tool written in Rust                 |
+| Node.js   | [node-kutt](https://github.com/ardalanamini/node-kutt)     | Node.js client for Kutt.it url shortener          |
 | Bash      | [kutt-bash](https://git.nixnet.xyz/caltlgin/kutt-bash)     | Simple command line program for Kutt              |
 
 ## Contributing
