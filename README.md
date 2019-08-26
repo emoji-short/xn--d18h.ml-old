@@ -10,6 +10,7 @@
 * [Setup](#setup)
 * [Browser Extensions](#browser-extensions)
 * [API](#api)
+* [Integrate with ShareX](#sharex)
 * [3rd Party API Packages](#3rd-party-api-packages)
 * [Contributing](#contributing)
 
